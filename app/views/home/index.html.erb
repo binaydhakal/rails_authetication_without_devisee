@@ -1,0 +1,10 @@
+<% if Current.user %>
+    <div class="mt-5 justify-content-center">
+        <h1>Hello, Welcome To CRUD Application <span class="text-success"><%= Current.user.name %></span></h1>
+    </div>
+<% else %>
+    <div class="mt-5 justify-content-center">
+        <h1>Hello, Welcome To CRUD Application</h1>
+    </div>
+<% end %>
+
